@@ -1,0 +1,125 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,500;0,600;0,700;1,100;1,200;1,300&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+
+}
+body{
+    background: gainsboro;
+}
+
+.login-page {
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.form {
+  position: relative;
+  filter:drop-shadow(0 0 2px #000000);
+  border-radius: 5px;
+  width: 360px;
+  height: 420px;
+  background: linear-gradient(
+    181deg,
+     rgba(255,255,255,0.8) 0%,
+     rgba(255,255,255,0.4) 30%,
+     rgba(255,255,255,0.1) 40%,
+     rgba(255,255,255,0.0) 69%,
+     rgba(255,255,255,0.0) 100%
+  );
+  background-color: rgb(40, 0, 132);
+  padding:40px;
+}
+
+.form img {
+    position: absolute;
+    height: 20px;
+    top: 230px;
+    right: 60px;
+    cursor: pointer;
+}
+
+.form input {
+    background: linear-gradient(
+    181deg,
+     rgba(255,255,255,0.8) 0%,
+     rgba(255,255,255,0.4) 30%,
+     rgba(255,255,255,0.1) 40%,
+     rgba(255,255,255,0.0) 69%,
+     rgba(255,255,255,0.0) 100%
+  );
+    outline: 0;
+    background-color: #f2f2f2;
+    border-radius: 4px;
+    width: 100%;
+    border: 0;
+    margin: 15px 0;
+    padding: 15px;
+    font-size: 14px;
+}
+
+.form input:focus {
+    box-shadow: 0 0 5px 0 rgb(213, 210, 255);
+}
+
+span {
+    color: rgb(255, 0, 0);
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+.form button {
+    outline: 0;
+    background: linear-gradient(
+    181deg,
+     rgba(255,255,255,0.8) 0%,
+     rgba(255,255,255,0.4) 30%,
+     rgba(255,255,255,0.1) 40%,
+     rgba(255,255,255,0.0) 69%,
+     rgba(255,255,255,0.0) 100%
+  );
+    background-color: rgb(115, 77, 229);
+    width: 100%;
+    border: 0;
+    margin-top: 10px;
+    border-radius: 3px;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 15px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+}
+
+.form button:hover,
+.form button:active,
+.form button:focus {
+    background: linear-gradient(
+    181deg,
+     rgba(255,255,255,0.8) 0%,
+     rgba(255,255,255,0.4) 30%,
+     rgba(255,255,255,0.1) 40%,
+     rgba(255,255,255,0.0) 69%,
+     rgba(255,255,255,0.0) 100%
+  );
+    background-color:rgb(89, 0, 255);
+    color: #fff;
+
+}
+
+.message{
+    margin: 15px 0;
+    text-align: center;
+
+}
+.form .message a {
+    font-size: 14px;
+    color: rgb(226, 196, 255);
+    text-decoration: none;
+}

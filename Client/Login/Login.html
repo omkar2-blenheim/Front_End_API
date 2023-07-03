@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="Client/Login/Login_styles.css">
+<head>
+  <meta charset="UTF-8">
+  <div class="login-page">
+    <div class="form">
+        <form class="login-form" action="Client/homepage/Redirect.html" target="_self" method="GET" >
+          <h2>SIGN IN TO YOUR ACCOUNT</h2>
+          <input type="text" required placeholder="Username" id="user" autocomplete="off"/>
+          <input oninput="formvalid()" type="password" required placeholder="Password" id="pass" autocomplete="off"/>
+          <img src="https://cdn2.iconfinder.com/data/icons/basic-ui-interface-v-2/32/hide-512.png" onclick="show()" id="showing">
+          <span id="vaild-pass"></span>
+          <button type="submit" onclick="send()">SIGN IN</button>
+          <p class="message"><a href="#">Forgot your password?</a></p>
+        </form>
+      </div>
+</div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.4.1/socket.io.js"></script>
+<script src="Client/Login/Login_script.js"></script>
